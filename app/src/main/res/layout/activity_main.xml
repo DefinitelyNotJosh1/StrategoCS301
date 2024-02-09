@@ -20,6 +20,8 @@
             android:textSize="40sp" />
     </LinearLayout>
 
+
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
@@ -111,6 +113,24 @@
             android:layout_weight="2"
         ></LinearLayout>
 
-    </LinearLayout>
+        <LinearLayout
+            android:layout_width="700dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:orientationn="vertical" >
+
+        </LinearLayout>
+
+
+
+</LinearLayout>
+
 
 </LinearLayout>
