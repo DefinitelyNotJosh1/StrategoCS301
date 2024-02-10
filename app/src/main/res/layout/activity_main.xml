@@ -21,15 +21,15 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="horizontal">
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:layout_weight="2"
+            android:layout_weight="1.9"
             android:padding="10dp"
             android:gravity="center">
 
@@ -206,25 +206,23 @@
         </LinearLayout>
 
         <LinearLayout
-            android:padding="50sp"
-            android:layout_width="wrap_content"
+            android:padding="50dp"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:layout_weight="1"
+            android:layout_weight="0.9"
+            android:background="@drawable/board"
         >
 
-            <ImageView
-                android:id="@+id/gameBoard"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:src="@drawable/board" />
+
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientationn="vertical" >
+            android:orientationn="vertical"
+            android:layout_weight="2">
 
         </LinearLayout>
 
