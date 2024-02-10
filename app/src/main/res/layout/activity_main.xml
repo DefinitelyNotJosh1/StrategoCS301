@@ -100,13 +100,13 @@
                                 android:id="@+id/capturedRed1"
                                 android:layout_width="50dp"
                                 android:layout_height="70dp"
-                                android:src="@drawable/piece_1" />
+                                android:src="@drawable/piece_1_red" />
 
                             <ImageView
                                 android:id="@+id/CapturedRed3"
                                 android:layout_width="50dp"
                                 android:layout_height="70dp"
-                                android:src="@drawable/piece_9" />
+                                android:src="@drawable/piece_9_red" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -119,7 +119,7 @@
                                 android:id="@+id/capturedRed2"
                                 android:layout_width="50dp"
                                 android:layout_height="70dp"
-                                android:src="@drawable/piece_6" />
+                                android:src="@drawable/piece_6_red" />
                         </LinearLayout>
                     </LinearLayout>
 
@@ -443,6 +443,12 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center" >
+
+                    <ImageView
+                        android:id="@+id/boardPiece_2_red"
+                        android:layout_width="50dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/piece_2_red"
                 </LinearLayout>
 
                 <LinearLayout
@@ -585,6 +591,12 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center" >
+
+                    <ImageView
+                        android:id="@+id/boardPiece_1_red"
+                        android:layout_width="50dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/piece_1_red"
                 </LinearLayout>
 
                 <LinearLayout
@@ -646,83 +658,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:gravity="center" >
-                </LinearLayout>
+                    android:gravity="center">
 
-                <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:gravity="center" >
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:gravity="center" >
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:gravity="center" >
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:gravity="center" >
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:gravity="center" >
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:gravity="center" >
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:gravity="center" >
-                </LinearLayout>
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1" >
-
-                <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:gravity="center" >
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:gravity="center" >
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:gravity="center" >
+                    <ImageView
+                        android:id="@+id/boardPiece_10_red"
+                        android:layout_width="50dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/piece_10_red" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -834,6 +776,12 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center" >
+
+                    <ImageView
+                        android:id="@+id/boardBomb_red1"
+                        android:layout_width="50dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/bomb_red"
                 </LinearLayout>
 
                 <LinearLayout
@@ -841,6 +789,94 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center" >
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center" >
+
+                    <ImageView
+                        android:id="@+id/boardFlag_red"
+                        android:layout_width="50dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/flag_red"
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center" >
+
+                    <ImageView
+                        android:id="@+id/boardBomb_red2"
+                        android:layout_width="50dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/bomb_red"
                 </LinearLayout>
 
                 <LinearLayout
@@ -855,7 +891,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientationn="vertical"
+            android:orientation="vertical"
             android:layout_weight="2">
 
         </LinearLayout>
