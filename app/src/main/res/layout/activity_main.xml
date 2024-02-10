@@ -20,8 +20,6 @@
             android:textSize="40sp" />
     </LinearLayout>
 
-
-
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
@@ -151,6 +149,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:padding="50sp"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:orientation="vertical"
@@ -158,31 +157,15 @@
         >
 
             <ImageView
-                android:id="@+id/i"
-                android:layout_width="70dp"
-                android:layout_height="70dp"
-                android:src="@drawable/Flag"
+                android:id="@+id/gameBoard"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/board" />
 
-                />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:layout_weight="2"
-        ></LinearLayout>
-
-        <LinearLayout
-            android:layout_width="700dp"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
-
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="130dp"
             android:layout_height="match_parent"
             android:orientationn="vertical" >
 
@@ -191,6 +174,5 @@
 
 
 </LinearLayout>
-
 
 </LinearLayout>
