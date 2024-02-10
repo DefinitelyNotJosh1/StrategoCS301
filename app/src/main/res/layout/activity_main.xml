@@ -23,7 +23,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:baselineAligned="false">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -521,7 +522,9 @@
                         android:id="@+id/boardFlag"
                         android:layout_width="50dp"
                         android:layout_height="70dp"
-                        android:src="@drawable/flag" />
+                        android:src="@drawable/flag"
+                        />
+
                 </LinearLayout>
 
                 <LinearLayout
