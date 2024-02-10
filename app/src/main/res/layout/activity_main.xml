@@ -78,10 +78,10 @@
                     >
 
                     <TextView
-                        android:id="@+id/textCapturedRed"
+                        android:id="@+id/textCapturedred"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="RED"
+                        android:text="red"  />
                         android:textSize="25sp"
                         android:textColor="#FFFF0000"/>
 
@@ -101,13 +101,13 @@
                                 android:id="@+id/capturedRed1"
                                 android:layout_width="50dp"
                                 android:layout_height="70dp"
-                                android:src="@drawable/piece_1_red" />
+                                android:src="@drawable/piece_1_red"  />  
 
                             <ImageView
                                 android:id="@+id/CapturedRed3"
                                 android:layout_width="50dp"
                                 android:layout_height="70dp"
-                                android:src="@drawable/piece_9_red" />
+                                android:src="@drawable/piece_9_red"  />  
                         </LinearLayout>
 
                         <LinearLayout
@@ -120,7 +120,7 @@
                                 android:id="@+id/capturedRed2"
                                 android:layout_width="50dp"
                                 android:layout_height="70dp"
-                                android:src="@drawable/piece_6_red" />
+                                android:src="@drawable/piece_6_red"  />  
                         </LinearLayout>
                     </LinearLayout>
 
@@ -449,7 +449,7 @@
                         android:id="@+id/boardPiece_2_red"
                         android:layout_width="50dp"
                         android:layout_height="70dp"
-                        android:src="@drawable/piece_2_red"
+                        android:src="@drawable/piece_2_red" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -599,7 +599,7 @@
                         android:id="@+id/boardPiece_1_red"
                         android:layout_width="50dp"
                         android:layout_height="70dp"
-                        android:src="@drawable/piece_1_red"
+                        android:src="@drawable/piece_1_red"  />  
                 </LinearLayout>
 
                 <LinearLayout
@@ -667,7 +667,7 @@
                         android:id="@+id/boardPiece_10_red"
                         android:layout_width="50dp"
                         android:layout_height="70dp"
-                        android:src="@drawable/piece_10_red" />
+                        android:src="@drawable/piece_10_red"  />  
                 </LinearLayout>
 
                 <LinearLayout
@@ -784,7 +784,7 @@
                         android:id="@+id/boardBomb_red1"
                         android:layout_width="50dp"
                         android:layout_height="70dp"
-                        android:src="@drawable/bomb_red"
+                        android:src="@drawable/bomb_red"  />
                 </LinearLayout>
 
                 <LinearLayout
@@ -859,7 +859,7 @@
                         android:id="@+id/boardFlag_red"
                         android:layout_width="50dp"
                         android:layout_height="70dp"
-                        android:src="@drawable/flag_red"
+                        android:src="@drawable/flag_red"  />
                 </LinearLayout>
 
                 <LinearLayout
@@ -879,7 +879,7 @@
                         android:id="@+id/boardBomb_red2"
                         android:layout_width="50dp"
                         android:layout_height="70dp"
-                        android:src="@drawable/bomb_red"
+                        android:src="@drawable/bomb_red"  />
                 </LinearLayout>
 
                 <LinearLayout
