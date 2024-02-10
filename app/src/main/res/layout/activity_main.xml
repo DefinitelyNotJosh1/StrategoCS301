@@ -23,7 +23,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:baselineAligned="false">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -421,7 +422,7 @@
                         android:id="@+id/boardBomb1"
                         android:layout_width="50dp"
                         android:layout_height="70dp"
-                        android:src="@drawable/Bomb" />
+                        android:src="@drawable/bomb" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -517,6 +518,7 @@
                         android:layout_height="70dp"
                         android:src="@drawable/flag"
                         />
+
                 </LinearLayout>
 
                 <LinearLayout
@@ -856,7 +858,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientationn="vertical"
+            android:orientation="vertical"
             android:layout_weight="2">
 
         </LinearLayout>
