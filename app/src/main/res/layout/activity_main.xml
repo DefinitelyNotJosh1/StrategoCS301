@@ -421,7 +421,7 @@
                         android:id="@+id/boardBomb1"
                         android:layout_width="50dp"
                         android:layout_height="70dp"
-                        android:src="@drawable/bomb" />
+                        android:src="@drawable/Bomb" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -515,7 +515,8 @@
                         android:id="@+id/boardFlag"
                         android:layout_width="50dp"
                         android:layout_height="70dp"
-                        android:src="@drawable/flag" />
+                        android:src="@drawable/flag"
+                        />
                 </LinearLayout>
 
                 <LinearLayout
