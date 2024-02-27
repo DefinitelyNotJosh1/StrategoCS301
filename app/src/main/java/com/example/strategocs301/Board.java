@@ -8,15 +8,10 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.graphics.drawable.Drawable;
-import android.net.wifi.p2p.nsd.WifiP2pDnsSdServiceInfo;
 import android.util.AttributeSet;
 import android.view.SurfaceView;
 
 import androidx.core.content.res.ResourcesCompat;
-
-import org.w3c.dom.Attr;
-
-import java.lang.reflect.Array;
 import java.util.Random;
 
 public class Board extends SurfaceView {
@@ -27,7 +22,6 @@ public class Board extends SurfaceView {
     private float dpHeight;
     private float dpWidth;
     private int[][] boardInfo;
-    private Context boardContext;
 
     //Bitmaps, created once to conserve resources
     Bitmap redFlag;
@@ -139,8 +133,6 @@ public class Board extends SurfaceView {
                drawBoardHelper(canvas,redBomb,col,row);
                break;
           default:
-              return;
-
        }
 
     }
